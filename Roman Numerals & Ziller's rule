@@ -1,10 +1,8 @@
 ## @author Mya Yazbek
-## I pledge my word of honor that I have abided
-## by the CSN Academic Integrity Policy while completing
-## this assignment.
-## @file MyaYazbek137_pa3A.py
+
 ## @version 2021-02-06
-## @brief This assignment contains 2 parts.
+
+## @brief This program contains 2 parts.
 ## The first section consists of a program that 
 ## prompts the user for their name, and a number between 1 - 10
 ## and outputs the roman numeral associated with that integer.
@@ -12,7 +10,8 @@
 ## The second program that asks the user to input the year, month and
 ## number date to calculate the day of the week using Ziller's rule
 ## error messages will occur if the day of the month/year is too big or small
-## @note This code took me 5 hours to develop, write, test, and debug
+
+## @note This code took me 4 hours to develop, write, test, and debug
 ## My biggest issue was a simple syntax error that took 2 hours to
 ## find and fix lol
 
