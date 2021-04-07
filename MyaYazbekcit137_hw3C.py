@@ -1,0 +1,81 @@
+## @author Mya Yazbek
+## I pledge my word of honor that I have abided
+## by the CSN Academic Integrity Policy while completing
+## this assignment.
+## @file MyaYazbekcit137_hw3C.py
+## @version 2021-02-18
+## @brief this is a program that asks the user to input number of students,
+## and the age of the students. It will then spit out the total age in
+## years, lowest age in years, highest age in years, number of students
+## with even number age, number of students with odd number age, the
+## average of the even and odd ages, the average age in years,
+## and the average age in days.
+## @note this program took 5 hours to develop, write, test, and debug
+
+#ask for number of students, if number of students is not positive
+#then give an error message.
+
+number_of_students = int(input("Please enter the number of students: "))
+while number_of_students < 1:
+    print("Invalid entry, please try again.")
+    number_of_students = int(input("Enter the number of students: "))
+
+#now we will have the user enter the ages of the students, and
+#assign our variables, and have the program calculate
+#the necessary outputs within the loop
+
+
+age_entries = 0
+student_age_total = 0
+lowest_student_age = 121
+highest_student_age = 1
+students_age_odd = 0
+students_age_even = 0
+average_age_odd = 0
+average_age_even = 0
+total_age_even = 0
+total_age_odd = 0
+
+
+while age_entries < number_of_students:
+    student_age = int(input("Please enter the age of the student: "))
+    while student_age > 120 or student_age < 1:
+        print("Invalid Entry. Please try again.")
+        student_age = int(input("Please enter the age of the student: "))
+    age_entries = age_entries + 1
+    student_age_total = student_age_total + student_age
+    student_age_average_years = float(student_age_total / number_of_students)
+    student_age_average_days = float(student_age_total / number_of_students * 365)
+    if student_age % 2 == 0:
+        students_age_even = students_age_even + 1
+        total_age_even = total_age_even + student_age
+        average_age_even = total_age_even / students_age_even
+    if student_age % 2 == 1:
+        students_age_odd = students_age_odd + 1
+        total_age_odd = total_age_odd + student_age
+        average_age_odd = total_age_odd / students_age_odd
+    if student_age < 120 and student_age >= 1 and student_age > highest_student_age:
+        highest_student_age = student_age
+    if student_age < 120 and student_age >= 1 and student_age < lowest_student_age:
+        lowest_student_age = student_age
+
+#once the user has put in the appropriate number of entries, we have the program
+#spit out all of the student age stats, formatted for 2 decimal places
+
+if age_entries == number_of_students:
+    print("\nStudent age stats\nThe total age in years = ", student_age_total)
+    print("The lowest age in years = ", lowest_student_age)
+    print("The highest age in years = ", highest_student_age)
+    print("The number of students with even age values = ", students_age_even)
+    print("The number of students with odd age values = ", students_age_odd)
+    print("The average of all even age values = ", format(average_age_even, ".2f"))
+    print("The average of all odd age values = ", format(average_age_odd, ".2f"))
+    student_average_age_years = student_age_total / age_entries
+    student_average_age_days = student_average_age_years * 365
+    print("The average age in years = ", format(student_average_age_years, ".2f"))
+    print("The average age in days = ", format(student_average_age_days, ".2f"))
+
+#it works, yeehaw
+#end of assignment 3C
+
+
