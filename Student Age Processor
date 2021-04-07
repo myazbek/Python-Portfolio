@@ -1,15 +1,14 @@
 ## @author Mya Yazbek
-## I pledge my word of honor that I have abided
-## by the CSN Academic Integrity Policy while completing
-## this assignment.
-## @file MyaYazbekcit137_hw3C.py
+
 ## @version 2021-02-18
+
 ## @brief this is a program that asks the user to input number of students,
 ## and the age of the students. It will then spit out the total age in
 ## years, lowest age in years, highest age in years, number of students
 ## with even number age, number of students with odd number age, the
 ## average of the even and odd ages, the average age in years,
 ## and the average age in days.
+
 ## @note this program took 5 hours to develop, write, test, and debug
 
 #ask for number of students, if number of students is not positive
