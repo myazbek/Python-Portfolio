@@ -1,4 +1,3 @@
-# Python-Portfolio
 # Mya Yazbek's Python Portfolio
 
 # Hello! Welcome to my online python portfolio. 
