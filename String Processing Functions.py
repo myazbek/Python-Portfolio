@@ -1,8 +1,5 @@
 ## @author Mya Yazbek
-## I pledge my word of honor that I have abided
-## by the CSN Academic Integrity Policy while completing
-## this assignment.
-## @file MyaYazbekcit137_hw5B.py
+
 ## @version 2021-04-20
 ## @brief this program has 5 different functions, which are
 ## all explained below. It does not use global variables.
