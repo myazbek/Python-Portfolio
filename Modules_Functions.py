@@ -21,10 +21,6 @@ def menu():
     print("Enter 4 to exit")
     choice = int(input())
 
-    if choice < 1 or choice > 4:  #error message
-        print("Invalid entry. Please try again.")
-        choice = int(input())
-
     return choice
 
 ##math function
@@ -103,21 +99,27 @@ def system_info():
 
 
 ##below is the executor function that can be found in the executor file
-##def executor():
-##    choice = menu()
-##    if choice == 1:
-##        num = float(input("Please enter a number to process: "))
-##        math_function(num)
-##        menu()
-##    elif choice == 2:
-##        number_of_throws = int(input("Enter the number of times to throw the dice:"))
-##        value_check = int(input("Enter a value to check:"))
-##        die_simulator(number_of_throws, value_check)
-##        menu()
-##    elif choice == 3:
-##        system_info()
-##        menu()
-##
-##executor()
+#def executor():
+
+#    choice = menu()   #provide the menu    
+#    while choice != 4: #a continuous loop     
+
+#        if choice == 1:  # Math operations
+#            num = float(input("Please enter a number to process: "))
+#            math_function(num)
+
+#        elif choice == 2:  # Die rolling simulator
+#            number_of_throws = int(input("Enter the number of times to throw the dice:"))
+#            value_check = int(input("Enter a value to check:"))
+#           die_simulator(number_of_throws, value_check)
+
+#        elif choice == 3:  # System info
+#            system_info()
+
+#        else:
+#            print("Invalid choice - try again")
+#        choice = menu()   #provide the menu
+
+#executor()
 
 
