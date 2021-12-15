@@ -139,7 +139,10 @@ iris_df.iloc[1, 0:2]
 #you can check both of these .iloc examples in the 
 #iris_df header to verify the output.
 
-"""So now we need gather observations to train our model on. We want to divide our full dataset into a training and testing set. Since we have 150 obersevations, with 50 each being from our 3 species of iris, we should use about 20% of our total observations per species. This comes out to about 10 observations. I want to select observations at random, incase they are sorted in some way. We can use the randint function to randomly select observations.
+"""So now we need gather observations to train our model on. We want to divide our full dataset into a training and testing set. 
+Since we have 150 obersevations, with 50 each being from our 3 species of iris, we should use about 20% of our total observations per species. 
+This comes out to about 10 observations. 
+I want to select observations at random, incase they are sorted in some way. We can use the randint function to randomly select observations.
 
 Let's try to get python to display the full dataset so we can see how we need to index our
 """
