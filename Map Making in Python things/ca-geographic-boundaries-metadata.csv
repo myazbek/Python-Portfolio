@@ -1,0 +1,28 @@
+Field,Value
+Title,CA Geographic Boundaries
+URL,ca-geographic-boundaries
+Description,"<p>This dataset contains shapefile boundaries for CA State, counties and places from the US Census Bureau's 2016 MAF/TIGER database.  The 2016 TIGER/Line Shapefiles contain current geography for the United States, the District of Columbia, Puerto Rico, and the Island areas. Current geography in the 2016 TIGER/Line Shapefiles generally reflects the boundaries of governmental units in effect as of January 1, 2016, and other legal and statistical area boundaries that have been adjusted and/or corrected since the 2010 Census. This vintage includes boundaries of governmental units that match the data from the surveys that use 2016 geography, such as the 2016 Population Estimates and the 2016 American Community Survey.</p>
+<p>The 2016 TIGER/Line Shapefiles contain the geographic extent and boundaries of both legal and statistical entities. A legal entity is a geographic entity whose boundaries, name, origin, and area description result from charters, laws, treaties, or other administrative or governmental action. A statistical entity is any geographic entity or combination of entities identified and defined solely for the tabulation and presentation of data. Statistical entity boundaries are not legally defined and the entities have no governmental standing.</p>
+"
+Tags,"GIS,Geography,Geospatial,Spatial,State,boundaries,boundary,california,counties,county,map,maps,places"
+License,
+Topic,
+Organization,California Department of Technology
+Public Access Level,Public
+Rights,No Restrictions on Public Use
+Program Contact Name,admin
+Program Contact Email,opendata@state.ca.gov
+Author,data.ca.gov
+Homepage URL,https://data.ca.gov/dataset/ca-geographic-boundaries
+Frequency,Irregular
+Temporal Coverage,
+Granularity,
+Geographic Coverage Location,
+Spatial,
+Data Standard,
+Language,
+Source Link,
+Additional Information,
+Related Resources,
+Secondary Sources,
+Citation,
